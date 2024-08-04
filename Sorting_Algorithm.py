@@ -159,7 +159,7 @@ for i in number:
     print(f"[ { i : ^ 3} ]",end="")
 while 1:
     try:
-        answer = int(input("選擇你要看的排序法\n1.泡沫\n2.選擇\n3.插入\n4.合併\n> "))
+        answer = int(input("選擇你要看的排序法\n1.泡沫\n2.選擇\n3.插入\n4.合併\n5.快速\n> "))
     except Exception:
         print("請輸入有效的數值!")
         continue
